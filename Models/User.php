@@ -8,7 +8,7 @@ class User
     public $email;
     public $street_address;
 
-    public function __construct($name, $lastname, $date_of_birdth, $email, $street_address)
+    public function __construct(String $name, String $lastname, String $date_of_birdth, String $email, String $street_address)
     {
         $this->name = $name;
         $this->lastname = $lastname;
