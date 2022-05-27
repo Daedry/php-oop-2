@@ -19,9 +19,9 @@ require_once __DIR__ . '/Models/sub-Models/Clothing.php';
 
 require_once __DIR__ . '/Models/sub-Models/Food.php';
 
-require_once __DIR__ . '/Models/sub-Models/Object.php';
+require_once __DIR__ . '/Models/sub-Models/Item.php';
 
-require_once __DIR__ . '/Models/sub-Models/medicine.php';
+require_once __DIR__ . '/Models/sub-Models/Hygiene.php';
 
 require_once __DIR__  . '/Models/User.php';
 
