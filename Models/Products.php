@@ -1,21 +1,17 @@
 <?php
 
-class Products extends Animal {
+class Products {
 
-    public $food;
-    public $snack;
-    public $various_stuff;
-    public $toys;
-    public $clothing;
+    public $species; 
+    public $product;
+    public $price;
 
-    public function __construct(String $species, String $gender, String $food, String $snack, String $various_stuff, String $toys, String $clothing)
+
+    public function __construct(String $species, String $price, String $product )
     {
-        parent::__construct($species, $gender);
-        $this-> food = $food;
-        $this-> snack = $snack;
-        $this-> various_stuff = $various_stuff;
-        $this-> toys = $toys;
-        $this-> clothing = $clothing;
+        $this-> species = $species;
+        $this-> price = $price;
+        $this-> product = $product;
     }
     
 }
