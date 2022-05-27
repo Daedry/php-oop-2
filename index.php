@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /* 
 Oggi pomeriggio provate ad immaginare quali sono le classi necessarie 
@@ -13,12 +13,16 @@ solo in un periodo particolare (es. da maggio ad agosto).
 */
 
 
+require_once __DIR__ . '/Models/Products.php';
+
+require_once __DIR__ . '/Models/sub-Models/Clothing.php';
+
+require_once __DIR__ . '/Models/sub-Models/Food.php';
+
+require_once __DIR__ . '/Models/sub-Models/Object.php';
+
+require_once __DIR__ . '/Models/sub-Models/medicine.php';
+
 require_once __DIR__  . '/Models/User.php';
 
 require_once __DIR__ . '/Models/CreditCard.php';
-
-require_once __DIR__ . '/Models/Animal.php';
-
-require_once __DIR__ . '/Models/Products.php';
-
-
