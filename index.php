@@ -15,7 +15,10 @@ solo in un periodo particolare (es. da maggio ad agosto).
 
 require_once __DIR__  . '/Models/User.php';
 
+require_once __DIR__ . '/Models/CreditCard.php';
+
 require_once __DIR__ . '/Models/Animal.php';
 
 require_once __DIR__ . '/Models/Products.php';
+
 
