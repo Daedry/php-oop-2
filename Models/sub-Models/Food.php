@@ -3,12 +3,6 @@
 class Food
 {
     use Products;
-    // public $weight;
-
-    //     public function __construct(String $weight)
-    //     {
-    //      $this->weight = $weight;   
-    //     }
 }
 
 $cat_food = [
